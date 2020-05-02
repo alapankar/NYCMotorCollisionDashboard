@@ -5,7 +5,7 @@ import numpy as np
 
 
 st.title("Motor Vehicle Collisions in New York City")
-st.markdown("A Streamlit dashboard that can be used to monitor and analyse motor vehicle collisions in NYC")
+st.markdown("Streamlit dashboard that can be used to monitor and analyse motor vehicle collisions in NYC")
 
 @st.cache(persist=True)
 def load_data(nrows):
